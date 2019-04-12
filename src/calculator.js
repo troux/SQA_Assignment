@@ -39,3 +39,7 @@ exports.square = function (number) {
         return number * number;
     }
 };
+
+exports.squareRoot = function (number) {
+  return "TODO"
+};
