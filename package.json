@@ -1,0 +1,26 @@
+{
+  "name": "sqa_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troux/SQA_Assignment.git"
+  },
+  "author": "troux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troux/SQA_Assignment/issues"
+  },
+  "homepage": "https://github.com/troux/SQA_Assignment#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3"
+  }
+}
