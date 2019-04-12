@@ -13,7 +13,7 @@ describe('add', () => {
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, both input must be number")
         done();
-    })
+    });
 });
 
 describe('substract', () => {
@@ -28,7 +28,7 @@ describe('substract', () => {
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, both input must be number")
         done();
-    })
+    });
 });
 
 describe('mutiply', () => {
@@ -43,7 +43,7 @@ describe('mutiply', () => {
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, both input must be number")
         done();
-    })
+    });
 });
 
 describe('divide', () => {
@@ -63,8 +63,8 @@ describe('divide', () => {
         const result = calculator.divide(1, 0);
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, division by zero")
-        done()
-    })
+        done();
+    });
 });
 
 describe('square', () => {
@@ -79,7 +79,7 @@ describe('square', () => {
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, input must be number")
         done();
-    })
+    });
 });
 
 describe('squareRoot', () => {
@@ -87,12 +87,12 @@ describe('squareRoot', () => {
         const result = calculator.squareRoot(25);
         expect(result).to.be.a('number');
         expect(result).to.be.equal(5);
-        done()
+        done();
     });
     it('should return an error because of wrong input type', (done) => {
         const result = calculator.squareRoot("niwvw");
         expect(result).to.be.a('string');
         expect(result).to.be.equal("Error, both input must be number")
-        done()
-    })
+        done();
+    });
 });
