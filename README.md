@@ -1,7 +1,7 @@
 # SQA_Assignment
 This is an archetype project to present coding convention, unit testing and version control.
     It should be readen alongside its handbook.
- ##What is it ?
+ ## What is it ?
  This is a basic calculator project. For the moment it only have basic operation: 
   * Add
   * Substract
@@ -9,5 +9,5 @@ This is an archetype project to present coding convention, unit testing and vers
   * Multiply
  
  In the next version the square and squareRoot function will be added. 
- ##Usage
+ ## Usage
  Import the library in your code and you are good to go. 
